@@ -1,0 +1,3 @@
+!pip install dicom2nifti
+!pip install nibabel
+!pip install nilearn
