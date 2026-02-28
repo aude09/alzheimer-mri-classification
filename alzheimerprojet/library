@@ -9,3 +9,12 @@ import pandas as pd
 from sklearn.preprocessing import LabelEncoder
 from sklearn.model_selection import train_test_split
 import torchvision.transforms as transforms
+!pip install dicom2nifti
+!pip install nibabel
+!pip install nilearn
+import dicom2nifti
+import nibabel as nib
+import nilearn as nil
+import scipy.ndimage as ndi
+import matplotlib.pyplot as plt
+import os
