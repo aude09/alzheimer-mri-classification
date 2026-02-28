@@ -10,6 +10,11 @@ The objective is to automatically classify patients into three clinical categori
 
 A 3D Convolutional Neural Network (CNN) is trained on preprocessed MRI volumes to learn spatial patterns associated with disease progression.
 
+## links to the database
+https://adni.loni.usc.edu/data-samples/adni-data/neuroimaging/mri/mri-image-data-sets/
+For this project, I used 3T scan data, choosing ADNI1: Complete 3Y 3T for greater precision, as the collection was carried out over a longer period of time.
+Once on the site, just follow the steps outlined to access the data and download it. Make sure you have enough memory, of course.
+
 ## Methodology
 - Loading and matching MRI (NIfTI) files with clinical metadata
 - Preprocessing and normalization of 3D brain images
